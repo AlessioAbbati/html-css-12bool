@@ -1,6 +1,6 @@
 .col1 {
-    flex-basis: calc((100% / 12) * 12);
-    max-width: calc((100% / 12) * 12);
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
 }
 .col2 {
     flex-basis: calc((100% / 12) * 2);
@@ -9,4 +9,16 @@
 .col5 {
     flex-basis: calc((100% / 12) * 5);
     max-width: calc((100% / 12) * 5);
+}
+.col6 {
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+}
+.col8 {
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+}
+.col12 {
+    flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
 }

@@ -18,3 +18,14 @@
 .contents{
     color: white;
 }
+.subrow {
+    width: 100%;
+    background-color: green;
+}
+.lg .col {
+    height: 3rem;
+}
+.subrow .col {
+    height: 2rem;
+    border: 1px solid blue;
+}

@@ -1,3 +1,9 @@
+[class*="col"] {
+    flex: 0 0 auto;
+}
+[class*="subcol"] {
+    flex: 0 0 auto;
+}
 .col1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -45,6 +51,21 @@
 .col12 {
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
+}
+
+/*griglia innestata*/
+
+.subcol2 {
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+.subcol6 {
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+}
+.subcol8 {
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
 }
 
 /*offset*/

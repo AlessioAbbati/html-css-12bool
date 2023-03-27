@@ -7,17 +7,24 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
 }
-.col {
+[class*="col"] {
     border: 1px solid white;
     background-color: blue;
-    height: 2rem;
+    min-height: 2rem;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+[class*="subcol"] {
+    border: 1px solid blue;
+    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .contents{
     color: white;
+    white-space: nowrap;
 }
-

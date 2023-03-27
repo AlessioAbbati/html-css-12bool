@@ -6,12 +6,12 @@
 
 .row {
     display: flex;
-    background-color: blue;
     flex-wrap: wrap;
     margin-bottom: 1rem;
 }
 .col {
     border: 1px solid white;
+    background-color: blue;
     height: 2rem;
     display: flex;
     align-items: center;
